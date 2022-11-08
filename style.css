@@ -79,11 +79,12 @@ body {
 	color: #fff;
 	border-radius: 15px;
 	border: 1px solid #ddd;
+	transition: background-color .3s
 }
 
 .menu-item i {
 	font-size: 4rem;
-	margin-bottom: 0.2rem;
+	margin-bottom: 0.2em;
 }
 
 .menu-item p {
@@ -101,4 +102,31 @@ body {
 }
 .info-box p {
 	font-size: 1.5rem;
+}
+
+.main-stats h1 {
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.main-stat-box {
+	height: 120px;
+	border-radius: 15px;
+	transition: background-color .3s;
+}
+
+.main-stat-box:hover {
+	background-color: rgba(255,255,255,.08);
+}
+
+.main-stat-box h3 {
+	margin-bottom: 1em;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.main-stat-box p{ 
+font-size: 1.2rem;
 }
