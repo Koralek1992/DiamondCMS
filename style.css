@@ -42,6 +42,12 @@ body {
 	background-image: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
 }
 
+.info-top h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 .date-box {
 	display: flex;
 	flex-direction: column;
@@ -201,4 +207,20 @@ font-size: 1.3rem;
 }
 .monthly-status .number {
 	font-size: 1.2rem;
+}
+
+.posts h3 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.featured-post .btn {
+	font-size: 1.2rem;
+}
+.featured-post .card-title {
+	font-size: 1.8rem;
+}
+.featured-post .card-body {
+	font-size: 1.4rem;
 }
