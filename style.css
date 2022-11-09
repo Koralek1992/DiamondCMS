@@ -216,11 +216,48 @@ font-size: 1.3rem;
 }
 
 .featured-post .btn {
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .featured-post .card-title {
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 }
 .featured-post .card-body {
+	font-size: 1.2rem;
+}
+
+.active-users .card-img {
+	overflow: hidden;
+}
+
+.active-users img {
+	height: 150px;
+	object-fit: cover;
+	opacity: 0.6;
+	transition: opacity .3s, transform .3s;
+}
+
+.active-users img:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.active-users, .card-body, .active-users .btn {
+	font-size: 1.2rem;
+}
+
+.find-post, .find-post input, .find-post .btn, .find-post .dropdown-item {
 	font-size: 1.4rem;
+}
+
+.posts-modal h3 {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+.posts-modal p, .posts-modal .btn {
+	font-size: 1.3rem;
+}
+
+.posts-modal .modal-body .btn {
+	text-transform: uppercase;
 }
